@@ -1,0 +1,83 @@
+.bookmarked{
+    height:100vh;
+    /*background-color:gray;*/
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+.fireMarks{
+    display:flex;
+    flex-direction:column;
+    margin-top:100px;
+    align-items:center;
+    font-size:50px;
+    font-family:"Madimi One";
+    color:white;
+}
+.markedList{
+    margin-top:50px;
+    padding:30px;
+    height:80%;
+    width:90%;
+    display:flex;
+    gap:1%;
+    box-sizing:border-box;
+    flex-wrap:wrap;
+    align-content:flex-start;
+}
+.bok{
+    height:15%;
+    width:22%;
+    margin:20px 0px;
+    padding:15px;
+    background-color:rgba(164, 19, 60, 0.65);
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    gap:5px;
+    border-radius:10px;
+}
+.Bti{
+    color:white;
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+    overflow:scroll;
+    height:50%;
+    font-size:22px;
+    font-family:"Fredoka";
+    font-weight:450;
+    cursor:pointer;
+
+    box-sizing: border-box;
+}
+.Bti::-webkit-scrollbar {
+    display:none;
+}
+.remove {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#c9184a;
+    color: white;
+    height:40%;
+    padding:0% 5%;
+    align-self: center;
+    border-radius:10px;
+    cursor:pointer;
+    box-shadow: 3px 3px 7px rgba(74, 5, 33, 0.23), -3px -3px 7px rgba(74, 5, 33,0.23);
+    transition:all 0.5s;
+}
+.remove:hover{
+    transform:translateY(-2px);
+    height:45%;
+    padding:0% 6%;
+}
+.remove p{
+    margin:0px;
+    font-size:20px;
+    font-weight:450;
+    font-family:"Fredoka";
+}
+

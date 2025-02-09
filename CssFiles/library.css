@@ -1,0 +1,115 @@
+.book *{
+    box-sizing: border-box;
+}
+.book{
+    display:grid;
+    grid-template-rows: repeat(auto-fill,50px);
+    grid-template-columns:repeat(auto-fill,50px) ;
+}
+.book-cover{
+    background-color: rgb(140, 9, 44);
+    border-radius: 10px;
+    backdrop-filter:blur(10px);
+    grid-column:2/7;
+    grid-row:2/10;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+    width:250px;
+
+}
+.jpmorgan{
+    width:90%;
+    height:auto;
+}
+.title{
+    margin:0px 10px;
+    display:flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap:wrap;
+    font-family:"Madimi One";
+    font-size:26px;
+    font-weight:500;
+    color:white;
+    grid-column:7/15;
+    grid-row:3/5;
+    /*background-color:green;*/
+}
+.author{
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    flex-wrap:wrap;
+    font-family:"Fredoka";
+    font-size:16px;
+    font-weight:500;
+    color: white;
+    grid-column:8/14;
+    grid-row:5/6;
+}
+.publisher{
+    display:flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap:wrap;
+    font-family:"Fredoka";
+    font-size:16px;
+    font-weight:500;
+    color: white;
+    grid-column:8/14;
+    grid-row:6/7;
+}
+.view{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Fredoka";
+    font-size:20px;
+    font-weight:500;
+    color: rgb(255, 255, 255);
+    grid-column:8/12;
+    grid-row:9/10;
+    background-color: rgb(140, 9, 44);
+    backdrop-filter:blur(10px);
+    border-radius:20px;
+    transition:all 0.5s ease-in 0.1s;
+}
+.markit{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+    color:white;
+    background-color: rgb(140, 9, 44);
+    grid-column:13/14;
+    grid-row:9/10;
+    border-radius:50px;
+    transition:all 0.5s ease-in 0.1s;
+}
+.markit:hover{
+    cursor:pointer;
+    background-color: #c9184a;
+    color:white;
+}
+.view:hover{
+    cursor:pointer;
+    background-color: #c9184a;
+    color:white;
+}
+.noresult{
+
+    height:100%;
+    width:100%;
+    box-shadow: 2px 2px 8px #D2D2D2;
+    background-color:  rgba(201, 24, 74, 0.64);
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fredoka";
+    font-size:25px;
+    font-weight:500;
+
+}

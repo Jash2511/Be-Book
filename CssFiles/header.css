@@ -1,0 +1,175 @@
+body{
+    overflow-x: hidden;
+    margin:0px;
+    background-color: rgb(74, 5, 33);
+}
+body::-webkit-scrollbar {
+    display:none;
+}
+.head{
+    margin:20px;
+    border-radius:30px;
+    background-color: rgba(164, 19, 60, 0.65);
+    backdrop-filter: blur(100px);
+    display:grid;
+    grid-template-columns: repeat(auto-fill,auto);
+    grid-template-rows: repeat(6, auto);
+}
+.nav{
+    font-size:30px;
+    height:70px;
+    margin:30px 30px;
+    display:flex;
+    justify-content:space-between;
+    position:sticky;
+    z-index:10;
+    top:30px;
+}
+.navs{
+    height:50px;
+    padding:10px 20px;
+    border-radius:50px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    gap:20px;
+    background-color: rgba(128, 15, 47, 0.57);
+    position:sticky;
+    backdrop-filter: blur(10px);
+    color:beige;
+    box-shadow:3px 3px 6px rgb(74, 5, 33);
+}
+.circle{
+    height:55px;
+    width:55px;
+    border-radius: 45px;
+    background-color: rgb(66, 2, 28);
+    position:absolute;
+    left:12px;
+    top:50%;
+    z-index:-1;
+    translate: 0% -50%;
+}
+.fa-book-open{
+    color:beige;
+    translate: 1px 2px;
+    font-size : 30px;
+}
+.title1{
+    font-family: "Madimi One";
+    color:beige;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position :relative;
+    padding:0px;
+}
+.search-bar{
+    grid-row:4/5;
+    margin:10px 20px;
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    align-items:center;
+    grid-gap:20px;
+}
+.search-barinput{
+    justify-self:start;
+    box-sizing: border-box;
+    width:720px;
+    height:60px;
+    font-family:"Fredoka";
+    font-size:20px;
+    font-weight:400;
+    padding:10px 20px;
+    border: black solid 3px;
+    border-radius:25px;
+    outline:none;
+    background-color:#fff0f3;
+    backdrop-filter:blur(10px);
+    color:#10002b;
+}
+.search-barinput::placeholder{
+    color:#10002b;
+    font-size:20px;
+    font-weight:400;
+}
+.round{
+    justify-self:start;
+    width:60px;
+    height:60px;
+    border-radius: 60px;
+    background-color: black;
+    backdrop-filter:blur(15px);
+    display: grid;
+    position:relative;
+    cursor:pointer;
+}
+.searchb{
+    color:beige;
+    font-size:30px;
+    justify-self:center;
+    align-self:center;
+
+}
+.fq10{
+    margin-top:40px;
+    margin-left: 40px;
+    font-family:"Madimi One";
+    font-size:35px;
+    font-weight:500;
+    grid-row:2/2;
+    justify-self:start;
+    align-self:end;
+    color:white;
+}
+.fq11{
+    margin-bottom : 30px;
+    margin-left: 40px;
+    font-family:"Madimi One";
+    font-size:35px;
+    font-weight:500;
+    grid-row:3/3;
+    justify-self:start;
+    align-self:start;
+    color:white;
+}
+
+.recomend-cont{
+    height:538.67px;
+    margin:20px;
+    border-radius:10px;
+    background-color: rgba(164, 19, 60, 0.33);
+    backdrop-filter: blur(10px);
+    grid-column:span 6;
+    grid-row:5/6;
+    display:flex;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    box-shadow:2px 2px 4px rgb(74, 5, 33);
+}
+.book{
+    flex-shrink:0;
+    margin:20px;
+    height:90%;
+    width:700px;
+    align-self:center;
+    border-radius:10px;
+    box-shadow: 3px 3px 7px rgba(74, 5, 33, 0.33), -3px -3px 7px rgba(74, 5, 33,0.33);
+    background-color: rgba(166, 17, 59, 0.64);
+    backdrop-filter:blur(30px);
+
+
+}
+.recomend-cont::-webkit-scrollbar {
+    display: none;
+}
+.recomend-cont {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.namu:hover{
+    cursor:pointer;
+}
