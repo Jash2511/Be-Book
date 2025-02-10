@@ -1,7 +1,7 @@
-# [Be@Book])(https://jash2511.github.io/Be-Book/)
+# [[Be@Book])(https://jash2511.github.io/Be-Book/)]
 A web page where users can search for book and add them to there whislist 
 
-## This Website is Designed by [Jash Patel](https://github.com/Jash2511/Be@Book)
+## This Website is Designed by [Jash Patel](https://github.com/Jash2511/Be-Book)
 
 ## Functionality
 - Click add to bookmark to store your books to local storage and fetch them later
